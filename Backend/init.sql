@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS resume_analysis (
+  id SERIAL PRIMARY KEY,
+  filename TEXT NOT NULL,
+  analysis_result TEXT NOT NULL,
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
